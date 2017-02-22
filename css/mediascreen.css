@@ -1,0 +1,170 @@
+@media (min-width: 1024px){
+	.Categories{
+	padding-right: 150px;
+	}
+	.names a {
+    	padding-right: 100px;
+ 	}
+ 	.dropdown{
+ 		display: none;
+ 	}
+
+}
+@media (max-width: 1023px) and (min-width: 641px){
+	.Categories{
+	padding-right: 50px;
+	}
+	.dropdown{
+		display: none;
+	}
+	.Categories a{
+	margin: 0;
+	}
+	.menu > li > a{
+		padding: 5px;
+	}
+	.menu{
+		text-align: center;
+	}
+	.menu-left a{
+		font-size: 8pt;
+	}
+	.menu-left{
+		display: none;
+		margin-left: 0px;
+	}
+	.collection-2016 button{
+	margin-top: 20px;
+	}
+	.collection-2016{
+		margin-left: 0;
+	}
+	.info{
+		margin-left: 0;
+	}
+	.first-lot p{
+		padding-left: 0;
+	}
+	.non-pading{
+		margin-left: 0;
+		margin-top: 50px;
+	}
+	.names a{
+		padding-right: 0;
+	}
+	.li-padding a{
+		display: none;
+	}
+	.one-sale-deal{
+		margin-left: 50px;
+	}
+	.no-mar{
+		margin-top: 20px;
+		margin-left: 50px;
+	}
+	.slick{
+		margin-left: 0;
+	}
+	.img-body-wash{
+		display: none;
+	}
+	.lot{
+		margin-top: 120px;
+	}
+	.first-lot a{
+		padding-left: 10px;
+	}
+	.tv-section{
+		margin-left: 0;
+	}
+
+}
+@media (max-width: 640px){
+	.logo img{
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.top-menu{
+		display: none;
+	}
+	.all-top{
+		margin-top: 25%;
+		padding-bottom: 20px;
+	}
+	.total-sale{
+		display: none;
+	}
+	.packet{
+		padding: 10px;
+	}
+	.menu{
+		display: none;
+	}
+	.title-area{
+		padding-top: 10px;
+		padding-left: 10px;
+		margin-bottom: 10px;
+	}
+	.navigation li{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.menu-icon{
+	display: block;
+	}
+	.menu-left{
+		display: none;
+	}
+	.collection-2016{
+		margin-left: 0px;
+		text-align: center;
+	}
+	.coll{
+		font-size: 14pt;
+		padding-left: 0px;
+	}
+	.first{
+	color: #fff;
+	padding-left: 20px;
+	}
+	.collection-2016 button{
+	margin-left: 0px;
+	text-align: center;
+	}
+	.info{
+		margin-left: 0;
+	}
+	.product-section{
+		margin-left: 0;
+	}
+	.non-pading{
+		margin-top: 50px;
+		margin-left: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.lots{
+		text-align: center;
+	}
+	.names a{
+		padding-right: 0;
+	}
+	.li-padding a{
+		display: none;
+	}
+
+	.fashion-sale{
+		margin-left: 0;
+		width: 100%;
+	}
+	.no-mar{
+		margin-bottom: 0;
+	}
+	.first-lot a{
+		padding-left: 10px;
+	}
+	.tv-section{
+		margin-left: 0;
+	}
+
+}

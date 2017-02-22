@@ -1,0 +1,583 @@
+li{
+	list-style-type: none;
+}
+.header{
+	background-color: #000;
+}
+.top-menu{
+	display: inline-block;
+	float: right;
+	padding-top: 10px;
+}
+.top-menu li{
+	display: inline-block;
+}
+.top-menu a{
+	font-size: 12pt;
+	padding-right: 10px;
+	color: #fff;
+	padding-left: 5px;
+}
+.for-line a{
+	border-right: 1px solid #fff;
+}
+.top-menu a:hover{
+	color: #f8070d;
+}
+.packet-right{
+	float: right;
+	padding-right: 0;
+}
+.all-top{
+	display: inline-block;
+	padding-bottom: 30px;
+}
+.sale-packet{
+	display: inline-block;
+	font-size: 10pt;
+}
+.packet{
+	display: inline-block;
+	background-color: #f8070d;
+	border-radius: 30px;
+	padding: 15px;
+}
+.packet:hover{
+	background-color: #7e0ef1;
+}
+.total-sale{
+	display: inline-block;
+}
+.sale-600{
+	color: #fff;
+	font-size: 10pt;
+}
+.sale-600:hover{
+	color: #f8070d;
+}
+.sale-packet,.total-sale,.for{
+	vertical-align: top;
+}
+.title-area{
+	display: inline-block;
+}
+.title-area{
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+}
+.expand{
+	border-radius: 2px;
+}
+.button.alert{
+	background-color: #f8070d;
+}
+.button.alert:hover{
+	background-color: #7e0ef1;
+}
+.menu-icon{
+	display: none;
+}
+/*end header*/
+/*drop-down menu*/
+.dropbtn {
+    background-color: #f10e34;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #303a7a;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+/*drop-down menu*/
+.navigation{
+	position: relative;
+	background-color: #f8070d;
+}
+.menu a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 10pt;
+	vertical-align: bottom;
+}
+.menu a:hover{
+	color: #7e0ef1;
+}
+.Categories{
+	padding-right: 150px;
+}
+/*end navigation*/
+.menu-categories{
+	background-color: #fff;
+
+}
+.menu-left img{
+	padding: 15px 5px 15px 0;
+}
+.menu-left li{
+	border-bottom: 1px solid #eaeaea;
+}
+.menu-left{
+	margin-bottom: 0;
+}
+.menu-left li:last-child{
+	border-bottom: 0px;
+}
+.menu-left a{
+	color: #000;
+}
+.menu-left a:hover{
+	color: #f8070d;
+}
+/*end categories-menu*/
+.section-market{
+	background-color: #f3f3f3;
+}
+.collection-2016{
+	background-image: url(../img/bg-1.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	margin-left: 50px;
+	padding-bottom: 50px;
+
+}
+.coll{
+	padding-top: 90px;
+	font-size: 20pt;
+	padding-left: 70px;
+	margin-bottom: 0;
+	color: #303a7a;
+	font-family: Palatino, 'Palatino Linotype',  'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+}
+h1{
+	color: #fff;
+	font-family: Palatino, 'Palatino Linotype',  'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-size: 42pt;
+	margin-bottom: 0;
+	padding-left: 10px;
+}
+.first{
+	color: #fff;
+	padding-left: 120px;
+}
+.collection-2016 button{
+	margin-left: 140px;
+	margin-top: 40px;
+}
+.button.hollow{
+	border-color: #000;
+	color: #000;
+	padding: 10px 25px;
+}
+.button.hollow:hover{
+	border-color: #f8070d;
+	color: #f8070d;
+	transition: 0.1s;
+}
+.info{
+	background-color: #f10e34;
+	margin-left: 50px;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 5px;
+}
+.info p{
+	margin-bottom: 0;
+}
+.info p:first-child{
+	padding-top: 10px;
+}
+/*end section-market*/
+.sale-section-one{
+	background-color: #f3f3f3;
+	padding-top: 50px;
+}
+.hot-deals{
+	padding-right: 0;
+	padding-left: 0;
+
+}
+.deals{
+	padding-top: 10px;
+	margin-left: 0;
+	margin-bottom: 0;
+	padding-bottom: 5px;
+}
+.first-lot p{
+	display: inline-block;
+	padding-left: 20px;
+}
+.first-lot a{
+	color: #000;
+	font-size: 14pt;
+}
+.first-lot a:hover{
+	color: #f10e34;
+}
+.first-lot{
+	justify-items: center ;
+	border-bottom: 1px solid #eaeaea;
+}
+.slick{
+	display: inline-block;
+	float: right;
+}
+.slick li{
+	display: inline-block;
+	width: 30px;
+}
+.slick a{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	background-color: #cacaca;
+	border-radius: 160px;
+}
+.slick a:hover{
+	background-color: #f10e34;
+}
+.market{
+	margin-top: 20px;
+	text-align: center;
+}
+.dolor{
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 0;
+}
+.dolor p{
+	margin-bottom: 0;
+}
+.price{
+	text-align: center;
+	margin-bottom: 0;
+}
+.price i{
+	text-decoration: line-through;
+	padding-right: 5px;
+}
+.product-section{
+	background-color: #fff;
+}
+.top-nav{
+	padding: 12px 0;
+	border-bottom: 1px solid #eaeaea;
+}
+.nav-panel li{
+	display: inline-block;
+}
+.names a{
+	padding-right: 260px;
+	padding-left: 30px;
+	color: #000;
+	font-size: 14pt;
+}
+.names a:hover{
+	color: #f10e34;
+}
+.slicks{
+	float: right;
+}
+.slicks ul{
+	padding-right: 5px;
+}
+.slicks a{
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	background-color: #cacaca;
+	border-radius: 160px;
+}
+.slicks a:hover{
+	background-color: #f10e34;
+}
+.slicks li{
+	padding-right: 5px
+}
+.li-padding a{
+	padding-right: 15px;
+	color: #000;
+}
+.li-padding a:hover{
+	color: #f10e34;
+}
+.lots{
+	padding-top: 20px;
+	background-color: #fff;
+}
+.non-pading{
+    margin-left: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 50px;
+}
+.non-pading ul{
+	margin-left: 0;
+}
+/*end sale section*/
+.sale-section-two{
+	background-color: #f3f3f3;
+	padding-top: 50px;
+}
+.deals{
+	background-color: #fff;
+}
+.fashion-sale{
+	padding-right: 0;
+	padding-left: 0;
+	margin-left: 50px;
+}
+.img-sport{
+	float: left;
+	position: relative;
+
+}
+.img-sport::before{
+	content: '';
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	border-style: solid;
+	border-width: 0 0 190px 70px;
+	border-color: transparent transparent #ffffff transparent;
+	z-index: 10;
+}
+.lot {
+	float: left;
+}
+.date-fashion {
+	color: #dddadb;
+	font-size: 28pt;
+	text-transform: uppercase;
+	padding-top: 0px;
+}
+.sport-text{
+	margin-bottom: 0;
+}
+.sport-text:last-child{
+	font-size: 8pt;
+	padding-bottom: 10px;
+}
+.sport-fashion{
+	float: left;
+	background-color: #fff;
+	text-align: center;
+}
+.fashions{
+	text-transform: uppercase;
+}
+.buy{
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+.buy a{
+	border-bottom: 1px solid #0f8ce9;
+	color: #0f8ce9;
+}
+.buy a:hover{
+	border-bottom: 1px solid #f10e34;
+	color: #f10e34;
+}
+.no-mar{
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+.img-sport{
+	padding-right: 0;
+	padding-left: 0;
+}
+.img-sport img{
+	height: 200px;
+	width: 100%;
+
+}
+.img-sport a{
+	padding-right: 0;
+	padding-left: 0;
+}
+.sport-fashion{
+	height: 200px;
+}
+.lot{
+	padding-right: 0;
+	padding-left: 0;
+}
+.news-section{
+	background-color: #f3f3f3;
+	margin-top: 50px;
+}
+.button.secondary{
+	border-radius: 20px;
+	background-color: #f22f49;
+}
+.after-first-lot{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.non-deals{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #fff;
+	height: 250px;
+}
+.button.secondary:hover{
+	background-color: #1779ba;
+}
+.img-body-wash{
+	margin-top: 50px;
+	margin-left: 0;
+	height: 440px;
+	width: 100%;
+	background-image: url(../img/market/lot13.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+.tv-section{
+	padding-right: 0;
+	padding-left: 0;
+	margin-top: 50px;
+	margin-left: 50px;
+	background-color: #fff;
+	padding-bottom: 50px;
+}
+.market-lot12{
+
+}
+.laptop{
+	font-size: 20pt;
+	text-transform: uppercase;
+	padding-top: 40px;
+	margin-bottom: 0;
+
+}
+.retina-display{
+	font-size: 20pt;
+	text-transform: uppercase;
+	color: #69b7f1;
+	margin-bottom: 0;
+}
+.button.warning{
+	background-color: #f22f49;
+	border-radius: 20px;
+	color: #fff;
+}
+.button.warning:hover{
+	background-color: #1779ba;
+	color: #fff;
+}
+.non-pading{
+	background-color: #fff;
+	margin-bottom: 50px;
+}
+.no-colum-style{
+	padding-left: 0;
+	padding-right: 0;
+}
+.no-lots-padding{
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+.section-logo{
+	background-color: #f10e34;
+	height: 180px;
+}
+.section-logo img{
+	padding-top: 50px;
+	background-color: #f10e34;
+}
+.information-section{
+	background-color: #000;
+	color: #fff;
+}
+.information-section a{
+	background-color: #000;
+	color: #fff;
+}
+.information-section a:hover{
+	color: #e40f33;
+}
+.information-1{
+	margin-left: 0;
+	padding-top: 20px;
+}
+.info-pad{
+	padding-bottom: 20px;
+}
+.information-4{
+	margin-top: 46px;
+}
+.information-3 a{
+	padding-left: 10px;
+}
+.information-4 a{
+	padding-left: 10px;
+}
+.information-1 img{
+	padding-right: 10px;
+}
+.information-2,.information-3,.information-4,.information-5{
+	margin-left: 0;
+	padding-top: 50px;
+}
+
+.footer{
+	background-color: #1f1e1e;
+}
+/*.footer-row{
+	margin-right: 30%;
+	margin-left: 30%;
+}*/
+.menu-down{
+	padding-top: 20px;
+	text-align: center;
+}
+.menu-down li{
+	display: inline-block;
+	font-size: 10pt;
+	padding-right: 20px;
+}
+.menu-down a{
+	color: #fff;
+}
+.menu-down a:hover{
+	color: #f10e34;
+}
+.footer p{
+	font-size: 10pt;
+	color: #fff;
+	padding-bottom: 40px;
+}
