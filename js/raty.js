@@ -17,15 +17,15 @@
 		hints  : ['очень плохо', 'плохо', 'нормально', 'хорошо', 'очень хорошо'],
 	});
 
-	$('.rate4').raty({
-		number : 4,
-		starOff : 'img/rating_passiv.png',
-		starOn  : 'img/rating_activ.png'
-	});
+		$('.rate4').raty({
+			number : 4,
+			starOff : 'img/rating_passiv.png',
+			starOn  : 'img/rating_activ.png'
+		});
 
-	$('.rate5').raty({
-		number : 3,
-		starOff : 'img/rating_passiv.png',
-		starOn  : 'img/rating_activ.png'
-	});
+		$('.rate5').raty({
+			number : 3,
+			starOff : 'img/rating_passiv.png',
+			starOn  : 'img/rating_activ.png'
+		});
 });
